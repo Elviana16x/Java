@@ -11,7 +11,7 @@ public class perkalianMatrix {
 		matrix_b[0][0] = 5; matrix_b[0][1] = 7; //baris 1 matrix b
 		matrix_b[1][0] = 8; matrix_b[1][1] = 2; //baris 2 matrix b
 		int[][] perkalian = x(matrix_a, matrix_b);
-		printArray(perkalian);
+		printMatrix(perkalian);
 	}
 	//melakukan perhitungan
 	private static int[][] x(int[][] matrix_a, int[][] matrix_b) {
@@ -40,7 +40,7 @@ public class perkalianMatrix {
 		return hasil;
 	}
 	//menampilkan hasil perhitungan
-	private static void printArray(int[][] dataMatrix) {
+	private static void printMatrix(int[][] dataMatrix) {
 		System.out.print("hasil perkaliam matrix" + "\n" + "\n");
 		int baris_a = dataMatrix.length;
 		int kolom_b = dataMatrix[0].length;
