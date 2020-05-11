@@ -36,7 +36,7 @@ public class penjumlahanMatrix {
 	}
 	//menampilkan hasil perhitungan
 	private static void printMatrix(int[][] dataMatrix) {
-		System.out.print("hasil pengurangan matrix" + "\n" + "\n");
+		System.out.print("hasil penjumlahan matrix" + "\n" + "\n");
 		int baris_h = dataMatrix.length;
 		int kolom_y = dataMatrix[0].length;
 		for (int i = 0; i < baris_h; i++) {
