@@ -1,4 +1,4 @@
-package com.pinkly;
+package com.elviana;
 import java.util.Scanner;
 //belajar melakukan increment dan decrement  pada Array 2 dimensi
 public class brainOut {
