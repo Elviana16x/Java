@@ -1,0 +1,322 @@
+// PINKLY THEME
+
+// copy text di file json.settings
+
+{
+  "workbench.colorCustomizations": {
+
+  "background.enabled": false,
+  //"background.loop": false,
+  "background.style": {
+    "width": "100%",
+    "height": "100%",
+    "margin-left":"0%",
+    "background-size": "cover",
+    "opacity": 0.5
+  },
+  "background.customImages": [
+    "C:/Users/Pinkly/Pictures/Saved Pictures/Elviana.jpg"
+  ],
+
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.iconTheme": "sweet-vscode-icons",
+    /*
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": [
+      "--login"
+    ],
+    */
+    "editor.fontSize": 12,
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "git.ignoreLegacyWarning": true,
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "bash",
+        "icon": "terminal-bash"
+      },
+      "zsh": {
+        "path": "zsh"
+      },
+      "fish": {
+        "path": "fish"
+      },
+      "tmux": {
+        "path": "tmux",
+        "icon": "terminal-tmux"
+      },
+      "pwsh": {
+        "path": "pwsh",
+        "icon": "terminal-powershell"
+      },
+      "bash (2)": {
+        "path": "/usr/bin/bash"
+      },
+      "JavaScript Debug Terminal": {
+        "extensionIdentifier": "ms-vscode.js-debug",
+        "icon": "debug",
+        "id": "extension.js-debug.debugTerminal",
+        "title": "JavaScript Debug Terminal"
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "JavaScript Debug Terminal",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "background.useFront": false,
+    "background.useDefault": false,
+    "workbench.colorTheme": "Pinkly",
+
+    //warna background dan warna text
+    
+    "editor.foreground": "#ff00ff",
+    "editor.background": "#29001b",
+    //"editor.background": "#000000",
+    "editorLineNumber.foreground": "#ff00ff",
+    "editor.selectionBackground": "#56005e",
+    "editorOverviewRuler.background": "#ffffff",
+    "titleBar.activeBackground": "#9933b9",
+    "titleBar.activeForeground": "#ff9900",
+    "activityBar.background": "#9933b9",
+    "activityBar.foreground": "#ff0000",
+    "activityBar.inactiveForeground": "#ff9900",
+    "sideBar.background": "#2e2e2e",
+    "sideBar.foreground": "#ff0000",
+    "sideBarSectionHeader.foreground": "#00ffff",
+    "sideBarTitle.foreground": "#00ff00",
+    "sideBar.dropBackground": "#ff0000",
+    "tab.activeBackground": "#ffffff",
+    "tab.activeForeground": "#ff0000",
+    "terminal.background": "#2e2c2c",
+    "terminal.foreground": "#ff1493",
+    "terminal.selectionBackground": "#5250ca",
+    "foreground": "#00ffff",
+    "icon.foreground": "#00ff00",
+    "button.background": "#9b0060",
+    "button.foreground": "#00ff00",
+    "scrollbarSlider.background": "#ff9900",
+    "scrollbarSlider.activeBackground": "#00ff00",
+    "scrollbarSlider.hoverBackground": "#0099ff",
+    "toolbar.activeBackground": "#ffbb00",
+    "toolbar.hoverBackground": "#90dee9",
+
+    //semua border di VScode
+
+    "terminal.border": "#ff0000",
+    "contrastBorder": "#ff0000",
+    "contrastActiveBorder": "#00ff00",
+    "editorOverviewRuler.border": "#ff0000",
+    "titleBar.border": "#ff0000",
+    "sideBar.border": "#ff0000",
+    "statusBar.border": "#ff0000",
+    "tab.border": "#ff0000",
+    "activityBar.border": "#ff0000",
+    "editorGroup.border": "#ff0000",
+    "panel.border": "#ff0000",
+
+    "focusBorder": "#ff0000",
+    "menu.border": "#ff0000",
+    "input.border": "#ff0000",
+    "merge.border": "#ff0000",
+    "button.border": "#ff0000",
+    "checkbox.border": "#ff0000",
+    "dropdown.border": "#ff0000",
+    "peekView.border": "#ff0000",
+    "tab.hoverBorder": "#ff0000",
+    "panel.dropBorder": "#ff0000",
+    "sash.hoverBorder": "#ff0000",
+    "tab.activeBorder": "#ff0000",
+    "tab.activeBorderTop": "#ff0000",
+    "diffEditor.border": "#ff0000",
+    "editorHint.border": "#ff0000",
+    "editorInfo.border": "#ff0000",
+    "panelInput.border": "#ff0000",
+    "editorError.border": "#ff0000",
+    "pickerGroup.border": "#ff0000",
+    "scm.providerBorder": "#ff0000",
+    "testing.peekBorder": "#ff0000",
+    "debugToolBar.border": "#ff0000",
+    "editorWidget.border": "#ff0000",
+    "notebook.cellBorderColor": "#ff0000",
+    "panelSection.border": "#ff0000",
+    "window.activeBorder": "#ff0000",
+    "editorWarning.border": "#ff0000",
+    "menu.selectionBorder": "#ff0000",
+    "notifications.border": "#ff0000",
+    "tab.lastPinnedBorder": "#ff0000",
+    "textBlockQuote.border": "#ff0000",
+    "window.inactiveBorder": "#ff0000",
+    "activityBar.dropBorder": "#ff0000",
+    "editor.findMatchBorder": "#ff0000",
+    "editorGhostText.border": "#ff0000",
+    "keybindingLabel.border": "#ff0000",
+    "list.filterMatchBorder": "#ff0000",
+    "menubar.selectionBorder": "#ff0000",
+    "panelTitle.activeBorder": "#ff0000",
+    "settings.checkboxBorder": "#ff0000",
+    "editorGroupHeader.border": "#ff0000",
+    "settings.dropdownBorder": "#ff0000",
+    "tree.tableColumnsBorder": "#ff0000",
+    "statusBar.noFolderBorder": "#ff0000",
+    "activityBar.activeBorder": "#ff0000",
+    "editorHoverWidget.border": "#ff0000",
+    "inputOption.activeBorder": "#ff0000",
+    "notificationToast.border": "#ff0000",
+    "settings.textInputBorder": "#ff0000",
+    "tab.activeModifiedBorder": "#ff0000",
+    "tab.unfocusedHoverBorder": "#ff0000",
+    "editorBracketMatch.border": "#ff0000",
+    "statusBar.debuggingBorder": "#ff0000",
+    "editorWidget.resizeBorder": "#ff0000",
+    "notificationCenter.border": "#ff0000",
+    "panelSectionHeader.border": "#ff0000",
+    "settings.focusedRowBorder": "#ff0000",
+    "tab.unfocusedActiveBorder": "#ff0000",
+    "tab.unfocusedActiveBorderTop": "#ff0000",
+    "terminal.tab.activeBorder": "#ff0000",
+    "editor.lineHighlightBorder": "#ff0000",
+    "editor.wordHighlightBorder": "#ff0000",
+    "editorSuggestWidget.border": "#ff0000",
+    "inputValidation.infoBorder": "#ff0000",
+    "notebook.focusedCellBorder": "#ff0000",
+    "settings.numberInputBorder": "#ff0000",
+    "tab.inactiveModifiedBorder": "#ff0000",
+    "sideBarSectionHeader.border": "#ff0000",
+    "debugExceptionWidget.border": "#ff0000",
+    "editor.rangeHighlightBorder": "#ff0000",
+    "inputValidation.errorBorder": "#ff0000",
+    "notebook.selectedCellBorder": "#ff0000",
+    "settings.dropdownListBorder": "#ff0000",
+    "keybindingLabel.bottomBorder": "#ff0000",
+    "diffEditor.removedTextBorder": "#ff0000",
+    "editor.symbolHighlightBorder": "#ff0000",
+    "editorGroupHeader.tabsBorder": "#ff0000",
+    "editorUnnecessaryCode.border": "#ff0000",
+    "interactive.activeCodeBorder": "#ff0000",
+    "notebook.focusedEditorBorder": "#ff0000",
+    "searchEditor.findMatchBorder": "#ff0000",
+    "searchEditor.textInputBorder": "#ff0000",
+    "activityBar.activeFocusBorder": "#ff0000",
+    "diffEditor.insertedTextBorder": "#ff0000",
+    "inputValidation.warningBorder": "#ff0000",
+    "editorGroup.focusedEmptyBorder": "#ff0000",
+    "interactive.inactiveCodeBorder": "#ff0000",
+    "editor.findMatchHighlightBorder": "#ff0000",
+    "editor.findRangeHighlightBorder": "#ff0000",
+    "editor.selectionHighlightBorder": "#ff0000",
+    "editor.wordHighlightStrongBorder": "#ff0000",
+    "tab.unfocusedActiveModifiedBorder": "#ff0000",
+    "notebook.inactiveFocusedCellBorder": "#ff0000",
+    "notebook.inactiveSelectedCellBorder": "#ff0000",
+    "peekViewEditor.matchHighlightBorder": "#ff0000",
+    "tab.unfocusedInactiveModifiedBorder": "#ff0000",
+    "editor.snippetTabstopHighlightBorder": "#ff0000",
+    "editor.snippetFinalTabstopHighlightBorder": "#ff0000"
+  },
+}
+
+// copy text di file tema yang mau di edit
+
+"semanticHighlighting": true,
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.comment"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": [
+        "constant",
+        "entity.name.constant",
+        "variable.other.constant",
+        "variable.language",
+        "entity"
+      ],
+      "settings": {
+        "foreground": "#ffa500"
+      }
+    },
+    {
+      "scope": [
+        "entity.name",
+        "meta.export.default",
+        "meta.definition.variable"
+      ],
+      "settings": {
+        "foreground": "#ffff00"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter.function",
+        "meta.jsx.children",
+        "meta.block",
+        "meta.tag.attributes",
+        "entity.name.constant",
+        "meta.object.member",
+        "meta.embedded.expression"
+      ],
+      "settings": {
+        "foreground": "#ff00ff"
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#00ff00"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "support.class.component"
+      ],
+      "settings": {
+        "foreground": "#7ee787"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "scope": [
+        "storage",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#00ffff"
+      }
+    },
+    {
+      "scope": [
+        "storage.modifier.package",
+        "storage.modifier.import",
+        "storage.type.java"
+      ],
+      "settings": {
+        "foreground": "#ff00ff"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "punctuation.definition.string",
+        "string punctuation.section.embedded source"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    }
+
